@@ -566,6 +566,53 @@ public static void main(String[] args) {
 In questo esempio, la funzione `somma` accetta due parametri `a` e `b` e restituisce la loro somma. Nel metodo `main`, la funzione viene chiamata con gli argomenti 3 e 5, e il risultato viene stampato a schermo. Le funzioni migliorano la modularità e la comprensibilità del codice, consentendo la separazione delle logiche specifiche in unità gestibili e riutilizzabili.
 
 
+## Gestione degli Errori (Try-Catch, Try-with-Resources, Finally)
+La gestione degli errori in Java avviene attraverso l'uso del blocco **try-catch.** Il blocco try consente di eseguire un codice potenzialmente problematico, mentre il blocco catch gestisce eventuali eccezioni (errori) che possono verificarsi durante l'esecuzione del codice nel blocco try. Questo permette di affrontare gli errori in modo controllato e di continuare l'esecuzione del programma senza interruzioni gravi.
+
+Le eccezioni possono essere di vari tipi, come eccezioni di divisione per zero, eccezioni di accesso a oggetti nulli e così via. La gestione delle eccezioni è fondamentale per la robustezza dell'applicazione e per evitare crash imprevisti.
+
+```java
+try {
+    // Codice che potrebbe generare un'eccezione
+    int risultato = 5 / 0; // Divisione per zero
+} catch (ArithmeticException e) {
+    // Gestione dell'eccezione
+    System.out.println("Errore: " + e.getMessage());
+}
+```
+Inoltre, Java offre il blocco **"try-with-resources"** per gestire automaticamente la chiusura di risorse come file, socket o connessioni al database. Questo garantisce che le risorse vengano rilasciate in modo corretto anche in caso di eccezioni.
+
+```java
+try (BufferedReader reader = new BufferedReader(new FileReader("file.txt"))) {
+    // Utilizza il reader per leggere il file
+} catch (IOException e) {
+    // Gestione dell'eccezione
+    System.out.println("Errore durante la lettura del file: " + e.getMessage());
+}
+```
+Infine, il blocco **"finally"** può essere utilizzato per specificare codice che deve essere eseguito sempre, indipendentemente dal fatto che un'eccezione sia stata lanciata o meno. Questo è utile per le operazioni di pulizia o rilascio delle risorse.
+
+```java
+FileWriter fileWriter = null;
+try {
+    fileWriter = new FileWriter("output.txt");
+    fileWriter.write("Dati da scrivere nel file.");
+} catch (IOException e) {
+    System.out.println("Errore durante la scrittura nel file: " + e.getMessage());
+} finally {
+    try {
+        if (fileWriter != null) {
+            fileWriter.close();
+        }
+    } catch (IOException e) {
+        System.out.println("Errore durante la chiusura del file: " + e.getMessage());
+    }
+}
+```
+In questo esempio, il blocco "finally" si occupa della chiusura del fileWriter, indipendentemente dall'esito del blocco try-catch.
+
+
+
 
 ## Le librerie
 
