@@ -235,6 +235,26 @@ NoSQL è una categoria di database non relazionali progettati per gestire dati n
 - ORM come *Hibernate* (per Java) o *Entity Framework* (per .NET) sono ampiamente utilizzati per ridurre la complessità dello sviluppo di applicazioni basate su database relazionali
 
 In sintesi, i database includono database relazionali, che organizzano i dati in tabelle e utilizzano SQL per interrogare i dati, e database NoSQL, che gestiscono dati non strutturati o semi-strutturati in modi diversi. L'ORM è una tecnologia che semplifica l'interazione tra il codice dell'applicazione e il database relazionale, consentendo un accesso più semplice e orientato agli oggetti ai dati.
+
+Ecco un paragrafo schematico sul CRUD:
+
+## CRUD: Create, Read, Update, Delete
+
+- **Cos'è il CRUD:** CRUD è un acronimo che rappresenta le quattro operazioni fondamentali per la gestione dei dati in un sistema o in un'applicazione: Create (Creazione), Read (Lettura), Update (Aggiornamento) e Delete (Cancellazione). Queste operazioni consentono di gestire le informazioni in un database o in una risorsa dati.
+
+- **Create (Creazione):** Questa operazione implica l'inserimento di nuovi dati o record nel sistema. Ad esempio, in un'applicazione di gestione degli studenti, la creazione potrebbe significare l'aggiunta di un nuovo studente al database con tutte le relative informazioni.
+
+- **Read (Lettura):** La lettura coinvolge l'accesso e l'acquisizione di dati esistenti dal sistema. Gli utenti possono eseguire query o richiedere informazioni specifiche per visualizzare i dati desiderati. Ad esempio, un'applicazione di e-commerce consente agli utenti di leggere le descrizioni dei prodotti e i prezzi.
+
+- **Update (Aggiornamento):** L'aggiornamento comporta la modifica dei dati esistenti nel sistema. Questo può includere la correzione di errori, l'aggiornamento delle informazioni o la modifica di dettagli specifici. Ad esempio, in un'applicazione di gestione dei contatti, è possibile aggiornare il numero di telefono di un contatto.
+
+- **Delete (Cancellazione):** La cancellazione prevede la rimozione di dati o record dal sistema. Questa operazione deve essere eseguita con attenzione, poiché comporta la perdita permanente di informazioni. Ad esempio, in un'applicazione di archiviazione di file, è possibile eliminare un file.
+
+- **Applicazioni del CRUD:** Il concetto del CRUD è ampiamente utilizzato in sviluppo software e nella gestione dei database. Le operazioni CRUD sono alla base di molte funzionalità dell'applicazione, consentendo agli utenti di creare, leggere, aggiornare e cancellare dati.
+
+- **Sicurezza e Controllo:** Poiché il CRUD coinvolge l'accesso e la manipolazione dei dati, è fondamentale implementare misure di sicurezza e controlli per garantire che solo utenti autorizzati possano eseguire queste operazioni e che i dati siano protetti da errori o abusi.
+
+Il CRUD rappresenta un principio di base nella progettazione di sistemi informativi e applicazioni, consentendo agli utenti di interagire con i dati in modo completo e gestire le informazioni in modo efficace.
 ___________________________________________________________________________________________
 &ensp;
 # <ins>SQL (Structured Query Language)</ins>
@@ -645,3 +665,22 @@ Fornisce una vasta gamma di componenti predefiniti come modali, barre di navigaz
 
 - **Documentazione Dettagliata:** 
 Bootstrap offre una documentazione completa con esempi pratici e dettagli tecnici per aiutarti a utilizzare le diverse funzionalità del framework.
+
+
+___________________________________________________________________________________________
+&ensp;
+# <ins>API</ins> 
+
+- **Cos'è un'API:** Un'API, acronimo di "Application Programming Interface" (Interfaccia di Programmazione delle Applicazioni), è un insieme di regole e protocolli che consente a diverse componenti software di comunicare tra loro. Fornisce un'interfaccia standardizzata per accedere alle funzionalità di un software o di un servizio.
+
+- **Scopo delle API:** Le API consentono a sviluppatori di terze parti di utilizzare le funzionalità di un'applicazione o di un servizio senza dover conoscere i dettagli interni. Questo promuove la modularità e la riusabilità del codice, semplificando lo sviluppo di applicazioni complesse.
+
+- **Esempi di Utilizzo:** Le API sono ampiamente utilizzate in vari contesti. Ad esempio, un'applicazione mobile potrebbe utilizzare API di terze parti per integrare funzionalità di mappatura o social media. Un'applicazione web potrebbe accedere a un database tramite un'API. Inoltre, sistemi operativi come Android o iOS forniscono API per lo sviluppo di app native.
+
+- **Tipi di API:** Ci sono diversi tipi di API, tra cui API Web, API di libreria, API di sistema operativo e molte altre. Le API Web consentono la comunicazione tra applicazioni su Internet, mentre le API di libreria forniscono funzioni e classi riutilizzabili per uno specifico linguaggio di programmazione.
+
+- **Documentazione delle API:** Le API sono documentate in dettaglio per aiutare gli sviluppatori a capire come utilizzarle. Questa documentazione fornisce descrizioni di funzioni, parametri, esempi di codice e restrizioni d'uso.
+
+- **Sicurezza delle API:** La sicurezza delle API è fondamentale per proteggere i dati sensibili e prevenire accessi non autorizzati. L'autenticazione e l'autorizzazione sono spesso implementate per garantire un uso sicuro delle API.
+
+Le API sono un elemento cruciale nello sviluppo di software, facilitando l'integrazione tra applicazioni e consentendo l'accesso a servizi esterni in modo strutturato e affidabile.
