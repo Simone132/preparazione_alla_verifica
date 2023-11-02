@@ -802,6 +802,24 @@ ecco un esempio di codice:
 
 ```
 
+## Media Query:
+   - Definizione: Regole CSS condizionali che consentono di adattare il layout e lo stile di un sito web in base a diverse caratteristiche del dispositivo, come la larghezza dello schermo, l'orientamento e la risoluzione.
+   - Esempio: `@media screen and (max-width: 600px) { /* Regole CSS */ }`
+   - Uso: Per progettare siti web responsivi che si adattino a diverse dimensioni e dispositivi.
+
+## Viewport:
+   - Definizione: L'area visibile di una pagina web all'interno del browser dell'utente, che può variare in dimensioni a seconda del dispositivo e delle impostazioni del browser.
+   - Esempio: La parte dello schermo in cui puoi vedere il contenuto di una pagina web mentre la scorri o la visualizzi.
+   - Uso: Rilevante per la progettazione di siti web responsivi, poiché il layout deve adattarsi alla dimensione della viewport dell'utente.
+
+## Breakpoint:
+   - Definizione: Un punto specifico o un intervallo di larghezza della schermata in cui vengono applicate regole CSS diverse per adattare il layout e lo stile di un sito web.
+   - Esempio: Una larghezza dello schermo di 768 pixel come breakpoint per dispositivi tablet.
+   - Uso: Nella progettazione di siti web responsivi, i breakpoint definiscono quando avvengono le modifiche nel layout e nello stile del sito in base alle dimensioni dello schermo del dispositivo.
+
+___________________________________________________________________________________________
+&ensp;
+
 # BOOTSTRAP
 
 
@@ -809,7 +827,6 @@ ecco un esempio di codice:
 
 
 ## Caratteristiche principali
-
 
 - **Griglia Flessibile:**
 Bootstrap utilizza una griglia di layout basata su 12 colonne che si adatta automaticamente alle diverse dimensioni dello schermo, garantendo un design responsive

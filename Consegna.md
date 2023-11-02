@@ -32,5 +32,5 @@ Creazione database modifica struttura database ed inserimento dummy datas:
 - Per mezzo di Sqlite3 (o applicazione java) script **inserire 10 record** completi
 
 ## 4 esercizio MARKDOWN
-creazione readme.md con spiegazione dettagliata dei codici degli esercizi da 1 a 3
+Creazione readme.md con spiegazione dettagliata dei codici degli esercizi da 1 a 3
 il markdown deve contenere elementi di formattazione TITOLI ELENCHI CODICE
